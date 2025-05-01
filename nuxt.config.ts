@@ -60,8 +60,6 @@ export default defineNuxtConfig({
     typedPages: true,
   },
 
-  compatibilityDate: "2024-08-14",
-
   nitro: {
     esbuild: {
       options: {
@@ -84,4 +82,5 @@ export default defineNuxtConfig({
   },
 
   pwa,
+  compatibilityDate: "2025-05-02",
 });
